@@ -1,27 +1,30 @@
-# Student Management System (CLI)
+# Student Management System (CLI) – v1
 
-This is a **command-line based Python project** designed to manage student records efficiently.
-The project applies core Python concepts such as **Object-Oriented Programming, file handling, and JSON-based data persistence**.
+A **command-line based Python application** for managing student records.  
+This project focuses on building a **complete, functional CLI program** using core Python concepts such as data structures, file handling, and persistent storage.
 
-The goal of this project is to strengthen problem-solving skills and demonstrate the ability to build a complete, structured Python application.
+The goal of this project is to strengthen fundamentals and demonstrate the ability to design, implement, and iterate on a structured Python application.
 
 ---
 
 ## 📌 Features
-- Add new student records
-- View all students
-- Update student details
-- Delete student records
-- Persistent storage using JSON files
+
+- Add new student records  
+- Display all students  
+- Delete a student by UID  
+- Menu-driven CLI interface  
+- Persistent storage using JSON files  
 
 ---
 
-## 🛠 Concepts Used
-- Python classes and objects (OOP)
-- Dictionaries and lists
-- File handling
-- JSON serialization and deserialization
-- Modular code structure
+## 🛠 Concepts & Technologies Used
+
+- Python dictionaries and lists  
+- File handling  
+- JSON serialization and deserialization  
+- Modular code structure  
+- Command-line user interaction  
+- Defensive handling of empty or missing files  
 
 ---
 
@@ -30,21 +33,16 @@ The goal of this project is to strengthen problem-solving skills and demonstrate
 ```text
 student-management-system/
 │
-├── main.py          # CLI interface and program flow
-├── student.py       # Student class definition
-├── storage.py       # JSON read/write operations
-├── students.json    # Data storage file
+├── main.py          # CLI menu and application logic
+├── storage.py       # JSON load/save operations
+├── students.json    # Persistent data storage
 └── README.md
 ```
 
----
+## What I learned
 
-## 🚀 Future Improvements
-- Input validation
-- Search functionality
-- Sorting student records
-- Error handling
-
----
-
-📌 *This project is part of my Python learning journey and will be improved incrementally.*
+- Designing menu-driven CLI programs
+- Separating application logic from storage logic
+- Handling edge cases such as empty or missing files
+- Iteratively improving code structure and usability
+- Managing state and persistence across program runs
